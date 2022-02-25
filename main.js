@@ -5,6 +5,9 @@ let contador = 0;
 
 
 
+let guardarElement = document.getElementById('guardar')
+console.log(guardarElement);
+
 // funcion contar
 function increment(){
     // console.log('onclick');
@@ -15,7 +18,9 @@ function increment(){
 
 // funcion guardar
 function guardar(){
-    console.log(contador);
+    // console.log(contador);
+    alert(`Total personas ${contador}`);
 
-    
 }
+
+
